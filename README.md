@@ -1,8 +1,4 @@
-
-
-# Getting Started with Create React App
-
-NOTE:
+# NOTE:
 
 1. Download json-server globally using following command in terminal:
 npm install -g json-server
@@ -11,6 +7,9 @@ npm install -g json-server
 json-server --watch ./data/db.json
 
 3. This will start a server on port 3000. You can visit this link http://localhost:3000/products to get all the products
+
+
+# Getting Started with Create React App
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
