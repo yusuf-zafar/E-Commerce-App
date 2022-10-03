@@ -1,0 +1,149 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 13",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 120000,
+            "category": "mobile",
+            "image":"https://itronics.in/wp-content/uploads/2021/09/iphone-13-pink-select-2021-1.png"
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S22 Ultra",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 108000,
+            "category": "mobile",
+            "image":"https://images.samsung.com/is/image/samsung/p6pim/levant/2202/gallery/levant-galaxy-s22-ultra-s908-413037-sm-s908ezggmea-530970243"
+        },
+        {
+            "id": 3,
+            "name": "Sony TV",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 45000,
+            "category": "tv",
+            "image":"https://www.sony.co.in/image/60fc808004d6860e433b5a4cafeb60d2?fmt=png-alpha&resMode=bisharp&wid=384"
+        },
+        {
+            "id": 4,
+            "name": "Whirlpool Washing Machine",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 22000,
+            "category": "washing-machine",
+            "image":"https://whirlpoolindia.vtexassets.com/arquivos/ids/155709/31357_1_1.png?v=637774134119230000"
+        }, {
+            "id": 5,
+            "name": "Nokia lumia",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 50000,
+            "category": "mobile",
+            "image":"https://e7.pngegg.com/pngimages/341/551/png-clipart-nokia-lumia-1020-nokia-lumia-820-nokia-lumia-925-nokia-lumia-920-nokia-asha-311-smartphone-gadget-electronics.png"
+        }, {
+            "id": 6,
+            "name": "Samsung Washing Machine",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 19000,
+            "category": "washing-machine",
+            "image":"https://img.favpng.com/18/7/14/washing-machines-samsung-electronics-automatic-firearm-png-favpng-TgqV0V4UqkaEG6nK8RCXXWfBW.jpg"
+        }, {
+            "id": 7,
+            "name": "LG Washing Machine",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 18000,
+            "category": "washing-machine",
+            "image":"https://e7.pngegg.com/pngimages/87/649/png-clipart-washing-machine-washing-machine-thumbnail.png"
+        }, {
+            "id": 8,
+            "name": "Phillips LED TV",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 33000,
+            "category": "tv",
+            "image":"https://w7.pngwing.com/pngs/128/296/png-transparent-32-philips-32pft4101-led-backlit-lcd-high-definition-television-1080p-smart-tv-markt-television-display-advertising-media.png"
+        }, {
+            "id": 9,
+            "name": "Toshiba home theatre",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, atque. Soluta architecto pariatur accusamus, ipsa qui eveniet dolores enim ab, laboriosam ipsum accusantium aliquid at eligendi laborum beatae, asperiores modi.",
+            "price": 78000,
+            "category": "tv",
+            "image":"https://w7.pngwing.com/pngs/603/241/png-transparent-chromecast-4k-resolution-ultra-high-definition-television-smart-tv-tivi-television-rectangle-display-advertising.png"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "products": [
+                {
+                    "id": 1,
+                    "name": "iPhone 13",
+                    "price": 120000,
+                    "quantity": 1
+                },
+                {
+                    "id": 3,
+                    "name": "Sony TV",
+                    "price": 45000,
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": 2,
+            "totalPrice": 165000
+        },
+        {
+            "id": 2,
+            "products": [
+                {
+                    "id": 2,
+                    "name": "Samsung Galaxy S22 Ultra",
+                    "price": 108000,
+                    "quantity": 2
+                },
+                {
+                    "id": 4,
+                    "name": "Samsung Washing Machine",
+                    "price": 19000,
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": 2,
+            "totalPrice": 130000
+        },
+        {
+            "id": 3,
+            "products": [
+                {
+                    "id": 2,
+                    "name": "Toshiba home theatre",
+                    "price": 78000,
+                    "quantity": 2
+                },
+                {
+                    "id": 4,
+                    "name": "LG Washing Machine",
+                    "price": 18000,
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": 3,
+            "totalPrice": 130000
+        },
+        {
+            "id": 4,
+            "products": [
+                {
+                    "id": 2,
+                    "name": "Samsung Galaxy S22 Ultra",
+                    "price": 108000,
+                    "quantity": 2
+                },
+                {
+                    "id": 4,
+                    "name": "Whirlpool Washing Machine",
+                    "price": 22000,
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": 3,
+            "totalPrice": 130000
+        }
+    ]
+ }

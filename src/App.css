@@ -1,0 +1,33 @@
+html{
+    max-width: 100vw;
+    margin: 0 auto;
+    max-height: 100%;
+ }
+.App{
+   padding-bottom: 20px;
+  }
+ nav {
+    display: flex;
+    margin: 0 auto 60px;
+    gap: 10px;
+    align-items: center;
+    padding-right: 50px;
+ }
+  
+ nav h1 {
+    margin-right: auto;
+    color: #2196f3;
+    padding-left: 50px;
+ }
+  
+ nav a {
+    color: #2196f3;
+    padding: 4px 10px;
+    text-decoration: none;
+ }
+  
+ nav a.active {
+    color: white;
+    background: #2196f3;
+    text-decoration: none;
+ }

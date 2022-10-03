@@ -1,0 +1,38 @@
+.contact-form {
+    max-width: 480px;
+    margin: 0 auto;
+    padding-bottom: 126px;
+ }
+  
+ .form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+ }
+  
+ .form-control label {
+    margin-bottom: 0.25rem;
+ }
+  
+ .form-control input, .form-control textarea {
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+ }
+  
+ .btn {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+  
+ .btn-primary {
+    background-color: rgb(65, 157, 255);
+    color: white;
+    font-weight: 400;
+ }

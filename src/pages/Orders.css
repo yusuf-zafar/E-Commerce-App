@@ -1,0 +1,27 @@
+.orders-container {
+    display: flex;
+    gap: 10px;
+    padding: 0 50px;
+ }
+  
+ .orders-container > div {
+    flex: 1;
+ }
+  
+ .orders-list ul {
+    padding: 0;
+    margin: 0;
+ }
+  
+ .orders-list li {
+    list-style-type: none;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    padding:11px 15px;
+
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ .orders-list li:hover {
+  background: rgba(0, 0, 0, 0.426);
+}
