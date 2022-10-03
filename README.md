@@ -1,12 +1,12 @@
 # NOTE:
 
 ## Download json-server globally using following command in terminal:
-`npm install -g json-server`
+### `npm install -g json-server`
 
 ## To create fake API for products, run following command in terminal:
-`json-server --watch ./data/db.json`
+### `json-server --watch ./data/db.json`
 
-## This will start a server on port 3000. You can visit this link `http://localhost:3000/products `to get all the products
+### This will start a server on port 3000. You can visit this link `http://localhost:3000/products `to get all the products
 
 
 
